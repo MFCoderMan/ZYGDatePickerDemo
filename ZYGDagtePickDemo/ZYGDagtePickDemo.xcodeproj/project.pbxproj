@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021108621CD0C6A300B88E45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 021108611CD0C6A300B88E45 /* main.m */; };
+		021108651CD0C6A300B88E45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 021108641CD0C6A300B88E45 /* AppDelegate.m */; };
+		021108681CD0C6A300B88E45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 021108671CD0C6A300B88E45 /* ViewController.m */; };
+		0211086B1CD0C6A300B88E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 021108691CD0C6A300B88E45 /* Main.storyboard */; };
+		0211086D1CD0C6A300B88E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0211086C1CD0C6A300B88E45 /* Assets.xcassets */; };
+		021108701CD0C6A300B88E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0211086E1CD0C6A300B88E45 /* LaunchScreen.storyboard */; };
+		0211087B1CD0C6A300B88E45 /* ZYGDagtePickDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0211087A1CD0C6A300B88E45 /* ZYGDagtePickDemoTests.m */; };
+		021108861CD0C6A300B88E45 /* ZYGDagtePickDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 021108851CD0C6A300B88E45 /* ZYGDagtePickDemoUITests.m */; };
+		021108961CD1A6E200B88E45 /* ZYGDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 021108951CD1A6E200B88E45 /* ZYGDatePicker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		021108771CD0C6A300B88E45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 021108551CD0C6A200B88E45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0211085C1CD0C6A200B88E45;
+			remoteInfo = ZYGDagtePickDemo;
+		};
+		021108821CD0C6A300B88E45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 021108551CD0C6A200B88E45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0211085C1CD0C6A200B88E45;
+			remoteInfo = ZYGDagtePickDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0211085D1CD0C6A200B88E45 /* ZYGDagtePickDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYGDagtePickDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		021108611CD0C6A300B88E45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		021108631CD0C6A300B88E45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		021108641CD0C6A300B88E45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		021108661CD0C6A300B88E45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		021108671CD0C6A300B88E45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0211086A1CD0C6A300B88E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0211086C1CD0C6A300B88E45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0211086F1CD0C6A300B88E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		021108711CD0C6A300B88E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		021108761CD0C6A300B88E45 /* ZYGDagtePickDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYGDagtePickDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0211087A1CD0C6A300B88E45 /* ZYGDagtePickDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYGDagtePickDemoTests.m; sourceTree = "<group>"; };
+		0211087C1CD0C6A300B88E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		021108811CD0C6A300B88E45 /* ZYGDagtePickDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYGDagtePickDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		021108851CD0C6A300B88E45 /* ZYGDagtePickDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYGDagtePickDemoUITests.m; sourceTree = "<group>"; };
+		021108871CD0C6A300B88E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		021108941CD1A6E200B88E45 /* ZYGDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYGDatePicker.h; sourceTree = "<group>"; };
+		021108951CD1A6E200B88E45 /* ZYGDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYGDatePicker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0211085A1CD0C6A200B88E45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		021108731CD0C6A300B88E45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0211087E1CD0C6A300B88E45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		021108541CD0C6A200B88E45 = {
+			isa = PBXGroup;
+			children = (
+				0211085F1CD0C6A300B88E45 /* ZYGDagtePickDemo */,
+				021108791CD0C6A300B88E45 /* ZYGDagtePickDemoTests */,
+				021108841CD0C6A300B88E45 /* ZYGDagtePickDemoUITests */,
+				0211085E1CD0C6A200B88E45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0211085E1CD0C6A200B88E45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0211085D1CD0C6A200B88E45 /* ZYGDagtePickDemo.app */,
+				021108761CD0C6A300B88E45 /* ZYGDagtePickDemoTests.xctest */,
+				021108811CD0C6A300B88E45 /* ZYGDagtePickDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0211085F1CD0C6A300B88E45 /* ZYGDagtePickDemo */ = {
+			isa = PBXGroup;
+			children = (
+				021108931CD1A64A00B88E45 /* ZYGDatePicker */,
+				021108631CD0C6A300B88E45 /* AppDelegate.h */,
+				021108641CD0C6A300B88E45 /* AppDelegate.m */,
+				021108661CD0C6A300B88E45 /* ViewController.h */,
+				021108671CD0C6A300B88E45 /* ViewController.m */,
+				021108691CD0C6A300B88E45 /* Main.storyboard */,
+				0211086C1CD0C6A300B88E45 /* Assets.xcassets */,
+				0211086E1CD0C6A300B88E45 /* LaunchScreen.storyboard */,
+				021108711CD0C6A300B88E45 /* Info.plist */,
+				021108601CD0C6A300B88E45 /* Supporting Files */,
+			);
+			path = ZYGDagtePickDemo;
+			sourceTree = "<group>";
+		};
+		021108601CD0C6A300B88E45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				021108611CD0C6A300B88E45 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		021108791CD0C6A300B88E45 /* ZYGDagtePickDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0211087A1CD0C6A300B88E45 /* ZYGDagtePickDemoTests.m */,
+				0211087C1CD0C6A300B88E45 /* Info.plist */,
+			);
+			path = ZYGDagtePickDemoTests;
+			sourceTree = "<group>";
+		};
+		021108841CD0C6A300B88E45 /* ZYGDagtePickDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				021108851CD0C6A300B88E45 /* ZYGDagtePickDemoUITests.m */,
+				021108871CD0C6A300B88E45 /* Info.plist */,
+			);
+			path = ZYGDagtePickDemoUITests;
+			sourceTree = "<group>";
+		};
+		021108931CD1A64A00B88E45 /* ZYGDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				021108941CD1A6E200B88E45 /* ZYGDatePicker.h */,
+				021108951CD1A6E200B88E45 /* ZYGDatePicker.m */,
+			);
+			path = ZYGDatePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0211085C1CD0C6A200B88E45 /* ZYGDagtePickDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0211088A1CD0C6A300B88E45 /* Build configuration list for PBXNativeTarget "ZYGDagtePickDemo" */;
+			buildPhases = (
+				021108591CD0C6A200B88E45 /* Sources */,
+				0211085A1CD0C6A200B88E45 /* Frameworks */,
+				0211085B1CD0C6A200B88E45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYGDagtePickDemo;
+			productName = ZYGDagtePickDemo;
+			productReference = 0211085D1CD0C6A200B88E45 /* ZYGDagtePickDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		021108751CD0C6A300B88E45 /* ZYGDagtePickDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0211088D1CD0C6A300B88E45 /* Build configuration list for PBXNativeTarget "ZYGDagtePickDemoTests" */;
+			buildPhases = (
+				021108721CD0C6A300B88E45 /* Sources */,
+				021108731CD0C6A300B88E45 /* Frameworks */,
+				021108741CD0C6A300B88E45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				021108781CD0C6A300B88E45 /* PBXTargetDependency */,
+			);
+			name = ZYGDagtePickDemoTests;
+			productName = ZYGDagtePickDemoTests;
+			productReference = 021108761CD0C6A300B88E45 /* ZYGDagtePickDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		021108801CD0C6A300B88E45 /* ZYGDagtePickDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 021108901CD0C6A300B88E45 /* Build configuration list for PBXNativeTarget "ZYGDagtePickDemoUITests" */;
+			buildPhases = (
+				0211087D1CD0C6A300B88E45 /* Sources */,
+				0211087E1CD0C6A300B88E45 /* Frameworks */,
+				0211087F1CD0C6A300B88E45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				021108831CD0C6A300B88E45 /* PBXTargetDependency */,
+			);
+			name = ZYGDagtePickDemoUITests;
+			productName = ZYGDagtePickDemoUITests;
+			productReference = 021108811CD0C6A300B88E45 /* ZYGDagtePickDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		021108551CD0C6A200B88E45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZhangYunguang;
+				TargetAttributes = {
+					0211085C1CD0C6A200B88E45 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					021108751CD0C6A300B88E45 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0211085C1CD0C6A200B88E45;
+					};
+					021108801CD0C6A300B88E45 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 0211085C1CD0C6A200B88E45;
+					};
+				};
+			};
+			buildConfigurationList = 021108581CD0C6A200B88E45 /* Build configuration list for PBXProject "ZYGDagtePickDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 021108541CD0C6A200B88E45;
+			productRefGroup = 0211085E1CD0C6A200B88E45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0211085C1CD0C6A200B88E45 /* ZYGDagtePickDemo */,
+				021108751CD0C6A300B88E45 /* ZYGDagtePickDemoTests */,
+				021108801CD0C6A300B88E45 /* ZYGDagtePickDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0211085B1CD0C6A200B88E45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021108701CD0C6A300B88E45 /* LaunchScreen.storyboard in Resources */,
+				0211086D1CD0C6A300B88E45 /* Assets.xcassets in Resources */,
+				0211086B1CD0C6A300B88E45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		021108741CD0C6A300B88E45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0211087F1CD0C6A300B88E45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		021108591CD0C6A200B88E45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021108961CD1A6E200B88E45 /* ZYGDatePicker.m in Sources */,
+				021108681CD0C6A300B88E45 /* ViewController.m in Sources */,
+				021108651CD0C6A300B88E45 /* AppDelegate.m in Sources */,
+				021108621CD0C6A300B88E45 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		021108721CD0C6A300B88E45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0211087B1CD0C6A300B88E45 /* ZYGDagtePickDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0211087D1CD0C6A300B88E45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				021108861CD0C6A300B88E45 /* ZYGDagtePickDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		021108781CD0C6A300B88E45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0211085C1CD0C6A200B88E45 /* ZYGDagtePickDemo */;
+			targetProxy = 021108771CD0C6A300B88E45 /* PBXContainerItemProxy */;
+		};
+		021108831CD0C6A300B88E45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0211085C1CD0C6A200B88E45 /* ZYGDagtePickDemo */;
+			targetProxy = 021108821CD0C6A300B88E45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		021108691CD0C6A300B88E45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0211086A1CD0C6A300B88E45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0211086E1CD0C6A300B88E45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0211086F1CD0C6A300B88E45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		021108881CD0C6A300B88E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		021108891CD0C6A300B88E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0211088B1CD0C6A300B88E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYGDagtePickDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxinlongma.ZYGDagtePickDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0211088C1CD0C6A300B88E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYGDagtePickDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxinlongma.ZYGDagtePickDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0211088E1CD0C6A300B88E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYGDagtePickDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxinlongma.ZYGDagtePickDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYGDagtePickDemo.app/ZYGDagtePickDemo";
+			};
+			name = Debug;
+		};
+		0211088F1CD0C6A300B88E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYGDagtePickDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxinlongma.ZYGDagtePickDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYGDagtePickDemo.app/ZYGDagtePickDemo";
+			};
+			name = Release;
+		};
+		021108911CD0C6A300B88E45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYGDagtePickDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxinlongma.ZYGDagtePickDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYGDagtePickDemo;
+			};
+			name = Debug;
+		};
+		021108921CD0C6A300B88E45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYGDagtePickDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huaxinlongma.ZYGDagtePickDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYGDagtePickDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		021108581CD0C6A200B88E45 /* Build configuration list for PBXProject "ZYGDagtePickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021108881CD0C6A300B88E45 /* Debug */,
+				021108891CD0C6A300B88E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0211088A1CD0C6A300B88E45 /* Build configuration list for PBXNativeTarget "ZYGDagtePickDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0211088B1CD0C6A300B88E45 /* Debug */,
+				0211088C1CD0C6A300B88E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0211088D1CD0C6A300B88E45 /* Build configuration list for PBXNativeTarget "ZYGDagtePickDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0211088E1CD0C6A300B88E45 /* Debug */,
+				0211088F1CD0C6A300B88E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		021108901CD0C6A300B88E45 /* Build configuration list for PBXNativeTarget "ZYGDagtePickDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				021108911CD0C6A300B88E45 /* Debug */,
+				021108921CD0C6A300B88E45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 021108551CD0C6A200B88E45 /* Project object */;
+}
